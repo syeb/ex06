@@ -15,16 +15,12 @@ ex01() {
 }
 
 
-
-
 ex02() {
   print('Exercice 2: Calculate the number of days between two dates.') ;
   var Today = new DateTime.now();
   var Date1 = new DateTime(2014, DateTime.SEPTEMBER, 1);
   print("Depuis le $Date1, il y a eu ${DifferenceDate(Today, Date1)} jours qui se sont écoulés");
 }
-
-
 
 
 ex03() {
@@ -37,15 +33,12 @@ ex03() {
 }
 
 
-
-
 ex04() {
   print('Exercice 4: Make three different list with the names');
   var prenoms = ['Martin', 'Stephanie', 'Sophie', 'Alexandre', 'Benjamin', 'Mia', 'Alphonse'];
   print ('Voici la liste des prénoms: $prenoms');
   print(namesList(prenoms));
 }
-
 
 
 ex05() {
