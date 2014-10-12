@@ -1,6 +1,5 @@
 import 'package:ex06/fcn06.dart';
 
-
 ex01() {
   print('Exercice 1: Determine if a certain string is a palindrome.');
   var mots = 'bonjour';
@@ -14,14 +13,12 @@ ex01() {
   print('$mots4:${isPanlindrome(mots4)}');
 }
 
-
 ex02() {
   print('Exercice 2: Calculate the number of days between two dates.') ;
   var Today = new DateTime.now();
   var Date1 = new DateTime(2014, DateTime.SEPTEMBER, 1);
   print("Depuis le $Date1, il y a eu ${DifferenceDate(Today, Date1)} jours qui se sont écoulés");
 }
-
 
 ex03() {
   print('Exercice 3: Convert number grades to letter grades');
@@ -32,14 +29,12 @@ ex03() {
   print ("Ils ont donc eu respectivement: ${convertGrade(number)}, ${convertGrade(number1)} et ${convertGrade(number2)}.");
 }
 
-
 ex04() {
   print('Exercice 4: Make three different list with the names');
   var prenoms = ['Martin', 'Stephanie', 'Sophie', 'Alexandre', 'Benjamin', 'Mia', 'Alphonse'];
   print ('Voici la liste des prénoms: $prenoms');
   print(namesList(prenoms));
 }
-
 
 ex05() {
   print('Exercice 5: Sort the country with the appropriate athletes');
@@ -49,8 +44,7 @@ ex05() {
   print('${ordre(pays, athlete)}');
 }
 
-
-void main() {
+main() {
   ex01();
   ex02();
   ex03();

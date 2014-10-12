@@ -1,0 +1,13 @@
+ex06
+
+20/20
+
+ajouter une ligne vide entre les réponses
+
+Exercice 4:
+? null
+
+Exercice 5:
+Prepare two lists, one with the names of players and their clubs, 
+and the other with the names of clubs. 
+!names of players and their clubs!

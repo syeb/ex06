@@ -1,4 +1,5 @@
 library fcn06;
+
 import "dart:collection";
 
 // Exercice 01
@@ -11,8 +12,6 @@ bool isPanlindrome(String mots) {
   return true;
 }
 
-
-
 //Exercice 02
 //
 
@@ -20,7 +19,6 @@ int DifferenceDate(Today, Date1) {
   Duration difference = Date1.difference(Today);
   return difference.inDays.abs();
 }
-
 
 //Exercice 03
 //
@@ -39,7 +37,6 @@ convertGrade(number) {
     return letter = 'E';
   }
 }
-
 
 //Exercice 04
 //https://api.dartlang.org/apidocs/channels/stable/dartdoc-viewer/dart-core.String#id_length
